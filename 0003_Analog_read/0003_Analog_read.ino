@@ -26,7 +26,7 @@ void loop() {
 
   
   // print out the value you read:
-  Serial.print("S1 : ");
+  Serial.print("S1 : "); // prints the value from s1
   Serial.print(sensorValue1);
   Serial.print("  |  ");
   Serial.print("S2 : ");
