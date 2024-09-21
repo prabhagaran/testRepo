@@ -19,10 +19,10 @@ void setup() {
 // the loop routine runs over and over again forever:
 void loop() {
   // read the input on analog pin 0:
-  int sensorValue1 = analogRead(A0);
-  int sensorValue2 = analogRead(A1);
-  int sensorValue3 = analogRead(A2);
-  int sensorValue4 = analogRead(A3);
+  int sensorValue1 = analogRead(A0);// reads the value from sensor1
+  int sensorValue2 = analogRead(A1);//reads the value from sensor2
+  int sensorValue3 = analogRead(A2);//reads the value from sensor3
+  int sensorValue4 = analogRead(A3);//reads the value from sensor4
 
   
   // print out the value you read:
